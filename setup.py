@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 HERE = pathlib.Path(__file__).parent
 
 VERSION = '0.1.0'
-PACKAGE_NAME = 'transcript-audio'
+PACKAGE_NAME = 'AudioTranscript'
 AUTHOR = 'Ali Zangooi'
 AUTHOR_EMAIL = 'seagu.ll@yahoo.com'
 URL = 'https://github.com/Ali-Zangooi/transcript-audio/tree/main'
