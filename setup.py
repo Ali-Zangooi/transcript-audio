@@ -7,16 +7,16 @@ VERSION = '0.1.0'
 PACKAGE_NAME = 'transcript-audio'
 AUTHOR = 'Ali Zangooi'
 AUTHOR_EMAIL = 'seagu.ll@yahoo.com'
-URL = 'https://github.com/you/your_package'
+URL = 'https://github.com/Ali-Zangooi/transcript-audio/tree/main'
 
-LICENSE = 'Apache License 2.0'
-DESCRIPTION = 'Describe your package in one sentence'
+LICENSE = 'GNU general public license version 3'
+DESCRIPTION = 'Audio file transcription'
 LONG_DESCRIPTION = (HERE / "README.md").read_text()
 LONG_DESC_TYPE = "text/markdown"
 
 INSTALL_REQUIRES = [
-      'numpy',
-      'pandas'
+      'speech_recognition',
+      'scipy'
 ]
 
 setup(name=PACKAGE_NAME,
